@@ -10,15 +10,16 @@
 .ai-center {
     align-items: center;
 }
-.fj-center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 .fja-center {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.fja-center-fd-c {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 .c-white {
     color: white;
