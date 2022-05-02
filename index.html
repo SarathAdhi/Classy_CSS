@@ -18,20 +18,33 @@
 </body>
 <script>
     document.querySelector('.link').innerText = '<link href="https://sarathadhi.github.io/Cust-CSS-CDN/global.css" rel="stylesheet">'
-    for (var i = 0; i < 100; i++) {
 
-        var styles = `
-            .mg-${i} {
-                margin: ${i}px;
+    var s = document.styleSheets[0];
+
+    function changeStylesheetRule(stylesheet, selector, property, value) {
+        selector = selector.toLowerCase();
+        property = property.toLowerCase();
+        value = value.toLowerCase();
+
+        for (var i = 0; i < s.cssRules.length; i++) {
+            var rule = s.cssRules[i];
+            if (rule.selectorText === selector) {
+                rule.style[property] = value;
+                return;
             }
-            .pd-${i} {
-                padding: ${i}px;
-            }
-        `
-        var styleSheet = document.createElement("style")
-        styleSheet.innerText = styles
-        document.head.appendChild(styleSheet)
+        }
+
+        stylesheet.insertRule(selector + " { " + property + ": " + value + "; }", 0);
     }
+
+    for (var i = 0; i < 100; i++) {
+        changeStylesheetRule(s, `mg-${i}`, "margin", `${i}px`);
+        changeStylesheetRule(s, `pd-${i}`, "padding", `${i}px`);
+    }
+
+    console.log(s);
+
+
 </script>
 
 </html>
