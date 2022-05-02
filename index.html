@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <title>Cust CSS</title>
 </head>
+
 <body>
     <div class="home">
         <h1>Hello Developers, Welcome to Cust CSS</h1>
@@ -17,5 +18,20 @@
 </body>
 <script>
     document.querySelector('.link').innerText = '<link href="https://sarathadhi.github.io/Cust-CSS-CDN/global.css" rel="stylesheet">'
+    for (var i = 0; i < 100; i++) {
+
+        var styles = `
+            .mg-${i} {
+                margin: ${i}px;
+            }
+            .pd-${i} {
+                padding: ${i}px;
+            }
+        `
+        var styleSheet = document.createElement("style")
+        styleSheet.innerText = styles
+        document.head.appendChild(styleSheet)
+    }
 </script>
+
 </html>
