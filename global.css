@@ -1,4 +1,3 @@
-$bg-color: red;
 .disp-none {
     display: none;
 }
@@ -35,7 +34,7 @@ $bg-color: red;
     background-color: black;
 }
 .bg-red {
-    background-color: $bg-color;
+    background-color: red;
 }
 .bg-green {
     background-color: green;
