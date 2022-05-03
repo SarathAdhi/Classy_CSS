@@ -11,6 +11,6 @@
 # `CDN`
 
 <div align="center">
-    <h4>Paste this in your Root HTML file</h4>
+    <h2>Paste this in your Root HTML file</h2>
+    <h5>https://cdn.jsdelivr.net/gh/SarathAdhi/Cust-CSS-CDN@main/styles/global.cust.css</h5>
 </div>
-## <link href="https://cdn.jsdelivr.net/gh/SarathAdhi/Cust-CSS-CDN@main/styles/global.cust.css" rel="stylesheet" >
