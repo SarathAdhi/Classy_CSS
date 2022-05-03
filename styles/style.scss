@@ -1,0 +1,59 @@
+// Display properties
+$displayProps : block, inline-block, inline, flex, inline-flex, table, inline-table, table-caption, table-cell, table-column, table-column-group, table-footer-group, table-header-group, table-row-group, table-row ,flow-root, grid, inline-grid, contents, list-item, none;
+@each $display in $displayProps {
+    .#{$display} {
+      display: #{$display};
+    }
+}
+
+// Position properties
+$positionProps: static, fixed, absolute, relative, sticky;
+@each $position in $positionProps {
+    .#{$position} {
+      position: #{$position};
+    }
+}
+
+// Margin and padding
+@for $i from 0 through 100 {
+    .mg-#{$i} {
+        margin: #{$i};
+    }
+    .pd-#{$i} {
+        padding: #{$i};
+    }
+}
+
+// Flex - Justify contents
+$jcProps: ("jc-start": "flex-start", "jc-end": "flex-end", "jc-around": "space-around", "jc-center": "center", "jc-between": "space-between", "jc-evenly": "space-evenly");
+@each $jcName, $jcRealName in $jcProps {
+    .#{$jcName} {
+        justify-content: #{$jcRealName};
+    }
+}
+
+// Flex - Align items
+$aiProps: ("ai-start": "flex-start", "ai-end": "flex-end", "ai-center": "center", "ai-baseline": "baseline", "ai-stretch": "stretch");
+@each $aiName, $aiRealName in $aiProps {
+    .#{$aiName} {
+        align-items: #{$aiRealName};
+    }
+}
+
+.flex-ja-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex-ja-center-fd-c {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.flex-ja-center-fd-r {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
