@@ -1,3 +1,4 @@
+<p align="center">
 # Cust-CSS-CDN
 ## My own Custom CSS CDN for developers (Still under development)
 ## Click the link to read about Cust CSS. Apply this to your next Web application project
@@ -6,3 +7,4 @@
 # CDN
 ### https://cdn.jsdelivr.net/gh/SarathAdhi/Cust-CSS-CDN@main/styles/global.cust.css
 
+</p>
