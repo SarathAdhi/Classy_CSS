@@ -1,9 +1,13 @@
+/* Display property */
 .disp-none {
     display: none;
 }
+
+/*  */
 .ta-center {
     text-align: center;
 }
+/* flex property */
 .flex {
     display: flex;
 }
@@ -24,6 +28,8 @@
     align-items: center;
     flex-direction: column;
 }
+
+/* Color property */
 .c-white {
     color: white;
 }
