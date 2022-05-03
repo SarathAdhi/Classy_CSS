@@ -12,5 +12,5 @@
 
 <div align="center">
     <h4>Paste this in your Root HTML file</h4>
-    <link href="https://cdn.jsdelivr.net/gh/SarathAdhi/Cust-CSS-CDN@main/styles/global.cust.css" rel="stylesheet">
+    <h3><<h3>link href="https://cdn.jsdelivr.net/gh/SarathAdhi/Cust-CSS-CDN@main/styles/global.cust.css" rel="stylesheet" ></h3></h3>
 </div>
