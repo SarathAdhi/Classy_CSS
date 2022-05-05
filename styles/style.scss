@@ -78,7 +78,6 @@ $aiProps: ("ai-start": "flex-start", "ai-end": "flex-end", "ai-center": "center"
     height: 100%;
     background-color: inherit;
     border-radius: 50%;
-    z-index: -1;
     animation: ripple-mouse-pointer 1s ease-out infinite;
 }
 @keyframes ripple-mouse-pointer {
