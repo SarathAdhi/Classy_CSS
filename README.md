@@ -20,8 +20,12 @@
 # `Pre-build CSS and Cool Animations`
 
 <div align="center">
+
+
+
     <h2 align='left'>Want this type of animations in your Web App</h2>
     
-    <img src="https://user-images.githubusercontent.com/91727830/166945939-c0a2db7e-84d6-487f-a147-b6c034ba90fc.gif" />
+https://user-images.githubusercontent.com/91727830/166946866-776ef371-1411-4e2e-bf0e-6305309bff9f.mp4
+
     
 </div>
