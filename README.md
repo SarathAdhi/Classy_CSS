@@ -126,4 +126,4 @@
 <br>
 
 ### Noo more efforts needed. Just add this in your `HTML` file
-#### `<div class="mouse-pointer">`
+#### `<div class="mouse-pointer"></div>`
