@@ -20,5 +20,6 @@
 # `Pre-build CSS and Cool Animations`
 
 <div align="center">
-    
+    <h2 align='left'>Add this Javascript link to enable all the animations</h2>
+    <h4>https://cdn.jsdelivr.net/gh/SarathAdhi/Cust-CSS-CDN@main/javascript/script.global.js</h4>
 </div>
