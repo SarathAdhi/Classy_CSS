@@ -20,11 +20,6 @@
 # `Pre-build CSS and Cool Animations`
 
 <div align="center">
-    <h2 align='left'>Add this Javascript link to enable all the animations</h2>
-    
-https://user-images.githubusercontent.com/91727830/166945124-a28c4607-3102-411e-94b7-fa61d3a38dc4.mp4
-
-![mouse_pointer](https://user-images.githubusercontent.com/91727830/166945939-c0a2db7e-84d6-487f-a147-b6c034ba90fc.gif)
-
-    
+    <h2 align='left'>Want this type of animations in your Web App ?</h2>
+    ![mouse_pointer](https://user-images.githubusercontent.com/91727830/166945939-c0a2db7e-84d6-487f-a147-b6c034ba90fc.gif)
 </div>
