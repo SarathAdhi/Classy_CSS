@@ -94,7 +94,9 @@
 
 <img width="600" alt="image" src="https://user-images.githubusercontent.com/91727830/166961649-17d17c9b-4d1e-4c97-a442-b05132c5c307.png">
 
+![](https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif)
 
+# `Pre-build Components`
 
 ![](https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif)
 
