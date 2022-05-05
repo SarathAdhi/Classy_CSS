@@ -1,7 +1,7 @@
 var link = document.createElement('link');
 link.setAttribute("rel", "stylesheet");
 link.onload = CSSDone;
-link.setAttribute("href", 'https://cdn.jsdelivr.net/gh/SarathAdhi/Cust-CSS-CDN@main/styles/global.cust.css');
+link.setAttribute("href", 'https://sarathadhi.github.io/Cust-CSS-CDN/styles/global.cust.css');
 document.getElementsByTagName("head")[0].appendChild(link);
 
 document.onmousemove = function (event) {
