@@ -17,10 +17,10 @@ $positionProps: static, fixed, absolute, relative, sticky;
 // Margin and padding
 @for $i from 0 through 100 {
     .mg-#{$i} {
-        margin: #{$i};
+        margin: #{$i}px;
     }
     .pd-#{$i} {
-        padding: #{$i};
+        padding: #{$i}px;
     }
 }
 
