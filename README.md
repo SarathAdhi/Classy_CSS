@@ -97,7 +97,19 @@
 <h3 align='left'>Margin and Padding</h3>
 
 ### - `mg-0` to `mg-100`  Margin class (in px)
+```css
+.mg-59 {
+    margin: 59px;
+}
+```
+
 ### - `pd-0` to `pd-100`  Padding class (in px)
+```css
+.pd-59 {
+    padding: 59px;
+}
+```
+
 
 ![](https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif)
 
