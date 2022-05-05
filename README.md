@@ -17,7 +17,37 @@
 
 ![](https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif)
 
-# `Pre-build CSS and Cool Animations`
+# `Pre-build CSS`
+
+
+<h3 align='left'>Display - ClassName</h3>
+
+- block            -     `block`
+- inline-block      -    `inline-block`
+- inline            -    `inline`
+- flex              -    `flex`
+- inline-flex       -    `inline-flex`
+- table             -    `table`
+- inline-table      -    `inline-table`
+- table-caption     -    `table-caption`
+- table-cell        -    `table-cell`
+- table-column      -    `table-column`
+- table-column-group  -  `table-column-group`
+- table-footer-group  -  `table-footer-group`
+- table-header-group  -  `table-header-group`
+- table-row-group     -  `table-row-group`
+- table-row           -  `table-row`
+- flow-root           -  `flow-root`
+- grid                -  `grid`
+- inline-grid         -  `inline-grid`
+- contents            -  `contents`
+- list-item           -  `list-item`
+- none                -  `none`
+
+
+![](https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif)
+
+# `Cool Animations`
 
 <h2 align='left'>Want this type of animations in your Web App</h2>
     
