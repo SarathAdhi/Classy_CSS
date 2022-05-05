@@ -749,9 +749,9 @@
   height: 100%;
   background-color: inherit;
   border-radius: 50%;
-  animation: ripple-mouse-pointer 1s ease-out infinite; }
+  animation: ripple 1s ease-out infinite; }
 
-@keyframes ripple-mouse-pointer {
+@keyframes ripple {
   from {
     opacity: 1;
     transform: scale(0); }
