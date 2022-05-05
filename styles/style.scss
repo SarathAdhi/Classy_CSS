@@ -40,6 +40,8 @@ $aiProps: ("ai-start": "flex-start", "ai-end": "flex-end", "ai-center": "center"
     }
 }
 
+
+// Pre build css
 .flex-ja-center {
     display: flex;
     justify-content: center;
@@ -57,3 +59,37 @@ $aiProps: ("ai-start": "flex-start", "ai-end": "flex-end", "ai-center": "center"
     align-items: center;
     flex-direction: row;
 }
+
+// Mouse ripple effect
+.mouse-pointer {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 30px;
+    height: 30px;
+    background-color: #8a2be2;
+    border-radius: 50%;
+    pointer-events: none;
+}
+.mouse-pointer::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: inherit;
+    border-radius: 50%;
+    z-index: -1;
+    animation: ripple-mouse-pointer 1s ease-out infinite;
+}
+@keyframes ripple-mouse-pointer {
+    from {
+        opacity: 1;
+        transform: scale(0);
+    }
+
+    to {
+        opacity: 0;
+        transform: scale(2.5);
+    }
+}
+// Mouse ripple effect ------ ends here
