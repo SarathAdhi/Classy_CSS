@@ -94,6 +94,11 @@
 
 <img width="600" alt="image" src="https://user-images.githubusercontent.com/91727830/166961649-17d17c9b-4d1e-4c97-a442-b05132c5c307.png">
 
+<h3 align='left'>Margin and Padding</h3>
+
+### - `mg-0` to `mg-100`  Margin class (in px)
+### - `pd-0` to `pd-100`  Padding class (in px)
+
 ![](https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif)
 
 # `Pre-build Components`
