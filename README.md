@@ -21,7 +21,9 @@
 
 <h2 align='left'>Want this type of animations in your Web App</h2>
     
-https://user-images.githubusercontent.com/91727830/166946866-776ef371-1411-4e2e-bf0e-6305309bff9f.mp4
+<img src='https://user-images.githubusercontent.com/91727830/166947669-5e82da30-0102-463a-aa8a-16062ae62d8a.gif' />
 
-    
+<br>
 
+Noo more efforts needed. Just add this in your `HTML` file
+`<div class="mouse-pointer">`
