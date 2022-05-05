@@ -22,6 +22,6 @@
 <div align="center">
     <h2 align='left'>Want this type of animations in your Web App ?</h2>
     
-    https://user-images.githubusercontent.com/91727830/166945939-c0a2db7e-84d6-487f-a147-b6c034ba90fc.gif
+    <img src="https://user-images.githubusercontent.com/91727830/166945939-c0a2db7e-84d6-487f-a147-b6c034ba90fc.gif" />
     
 </div>
