@@ -12,8 +12,9 @@
 
 <div align="center">
     <h1>Paste this in your Root HTML file as a script file</h1>
-    <h4>https://cdn.jsdelivr.net/gh/SarathAdhi/Cust-CSS-CDN@main/javascript/script.global.js</h4>
 </div>
+
+`<script defer src="https://sarathadhi.github.io/Cust-CSS-CDN/javascript/script.global.js"></script>`
 
 ![](https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif)
 
