@@ -14,7 +14,12 @@
     <h1>Paste this in your Root HTML file as a script file</h1>
 </div>
 
+
+<div align="center">
+    
 #### `<script defer src="https://sarathadhi.github.io/Cust-CSS-CDN/javascript/script.global.js"></script>`
+
+</div>
 
 ![](https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif)
 
@@ -44,6 +49,49 @@
 - contents            -  `contents`
 - list-item           -  `list-item`
 - none                -  `none`
+
+<h3 align='left'>Position - ClassName</h3>
+
+- static - `static`
+- fixed - `fixed`
+- absolute - `absolute`
+- relative - `relative`
+- sticky - `sticky`
+
+<h3 align='left'>Flex Properties</h3>
+
+```css
+.flex-ja-center {
+  display: flex;
+  justify-contents: center;
+  align-items: center;
+}
+```
+`flex`
+`ja means justify-contents and align-items` - `center`
+
+
+```css
+.flex-ja-center-fd-r {
+  display: flex;
+  justify-contents: center;
+  align-items: center;
+  flex-direction: row;
+}
+```
+
+`fd-r means flex-direction: row`
+
+```css
+.flex-ja-center-fd-c {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; 
+}
+```
+`fd-c means flex-direction: column`
+
 
 
 ![](https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif)
