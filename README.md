@@ -96,14 +96,14 @@
 
 <h3 align='left'>Margin and Padding</h3>
 
-### - `mg-0` to `mg-100`  Margin class (in px)
+### - `mg-0` to `mg-100000000000` 😂Possible(upto infinity)  Margin class (in px)
 ```css
 .mg-59 {
     margin: 59px;
 }
 ```
 
-### - `pd-0` to `pd-100`  Padding class (in px)
+### - `pd-0` to `pd-100000000000` 😂Possible(upto infinity) Padding class (in px)
 ```css
 .pd-59 {
     padding: 59px;
