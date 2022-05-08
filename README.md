@@ -26,7 +26,7 @@
 # `Pre-build CSS`
 
 
-<h3 align='left'>Display - ClassName</h3>
+<h2 align='left'>Display - ClassName</h2>
 
 - block            -     `block`
 - inline-block      -    `inline-block`
@@ -50,7 +50,7 @@
 - list-item           -  `list-item`
 - none                -  `none`
 
-<h3 align='left'>Position - ClassName</h3>
+<h2 align='left'>Position - ClassName</h2>
 
 - static - `static`
 - fixed - `fixed`
@@ -58,7 +58,7 @@
 - relative - `relative`
 - sticky - `sticky`
 
-<h3 align='left'>Flex Properties</h3>
+<h2 align='left'>Flex Properties</h2>
 
 ```css
 .flex-ja-center {
@@ -94,7 +94,7 @@
 
 <img width="600" alt="image" src="https://user-images.githubusercontent.com/91727830/166961649-17d17c9b-4d1e-4c97-a442-b05132c5c307.png">
 
-<h3 align='left'>Margin and Padding</h3>
+<h2 align='left'>Margin and Padding</h2>
 
 ### - `mg-0` to `mg-100000000000` 😂Possible(upto infinity)  Margin class (in px)
 ```css
@@ -114,6 +114,13 @@
 ![](https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif)
 
 # `Pre-build Components`
+
+<h2 align='left'>Classic Header</h2>
+
+### Add the mention class `c-header` and the sub-class exactly
+
+<img width="202" alt="image" src="https://user-images.githubusercontent.com/91727830/167305386-b893e364-53b8-46b3-8afe-33d630f38465.png">
+
 
 ![](https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif)
 
