@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "watch:scss": "node-sass -w styles/style.scss styles/global.cust.css"
+    "watch:scss": "node-sass -w styles/style.scss styles/styles.global.css"
   },
   "dependencies": {
     "node-sass": "^7.0.1"

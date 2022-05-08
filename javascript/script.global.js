@@ -1,8 +1,35 @@
 var link = document.createElement('link');
 link.setAttribute("rel", "stylesheet");
-link.setAttribute("href", 'https://sarathadhi.github.io/Cust-CSS-CDN/styles/global.cust.css');
+link.setAttribute("href", 'https://sarathadhi.github.io/Cust-CSS-CDN/styles/styles.global.css');
 document.getElementsByTagName("head")[0].appendChild(link);
 
+// CSS scripting starts here
+var collection = document.body.getElementsByTagName("*");
+for (var i = 0; i < collection.length; i++) {
+    var className = collection[i].className
+    if (className.includes('cl-')) {
+        var neededClass = className.split('cl-')[1]
+        neededClass = neededClass.split(' ')[0];
+        document.querySelector(`.cl-${neededClass}`).style.color = neededClass
+    }
+    // Use with units ex:- mg-100px, mg-20rem
+    if (className.includes('mg-')) {
+        var neededClass = className.split('mg-')[1]
+        neededClass = neededClass.split(' ')[0];
+        document.querySelector(`.mg-${neededClass}`).style.margin = neededClass
+    }
+    // Use with units ex:- pd-100px, pd-20rem
+    if (className.includes('pd-')) {
+        var neededClass = className.split('pd-')[1]
+        neededClass = neededClass.split(' ')[0];
+        document.querySelector(`.pd-${neededClass}`).style.padding = neededClass
+    }
+}
+// CSS scripting ends here
+
+
+
+// Event handlers
 document.onmousemove = function (event) {
     var pointerX = event.pageX;
     var pointerY = event.pageY;
