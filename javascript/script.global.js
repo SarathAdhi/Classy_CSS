@@ -7,10 +7,18 @@ document.getElementsByTagName("head")[0].appendChild(link);
 var collection = document.body.getElementsByTagName("*");
 for (var i = 0; i < collection.length; i++) {
     var className = collection[i].className
+    // Color - for hex and normal text
     if (className.includes('cl-')) {
-        var neededClass = className.split('cl-')[1]
-        neededClass = neededClass.split(' ')[0];
-        document.querySelector(`.cl-${neededClass}`).style.color = neededClass
+        if (className.includes('cl-h')) {
+            var neededClass = className.split('cl-h')[1]
+            neededClass = neededClass.split(' ')[0];
+            document.querySelector(`.cl-h${neededClass}`).style.color = "#" + neededClass
+        }
+        else {
+            var neededClass = className.split('cl-')[1]
+            neededClass = neededClass.split(' ')[0];
+            document.querySelector(`.cl-${neededClass}`).style.color = neededClass
+        }
     }
     // Use with units ex:- mg-100px, mg-20rem
     if (className.includes('mg-')) {
