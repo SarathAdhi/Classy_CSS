@@ -96,17 +96,23 @@
 
 <h2 align='left'>Margin and Padding</h2>
 
-### - `mg-0` to `mg-100000000000` 😂Possible(upto infinity)  Margin class (in px)
+### - `mg-0(units)` to `mg-100000000000(units)` 😂Possible(upto infinity)  Margin class (in any units)
 ```css
-.mg-59 {
+.mg-59px {
     margin: 59px;
+}
+.mg-20rem {
+    margin: 20rem;
 }
 ```
 
-### - `pd-0` to `pd-100000000000` 😂Possible(upto infinity) Padding class (in px)
+### - `pd-0(units)` to `pd-100000000000(units)` 😂Possible(upto infinity) Padding class (in any units)
 ```css
 .pd-59 {
     padding: 59px;
+}
+.pd-20rem {
+    padding: 20rem;
 }
 ```
 
