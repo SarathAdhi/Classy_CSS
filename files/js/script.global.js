@@ -1,6 +1,6 @@
 var link = document.createElement('link');
 link.setAttribute("rel", "stylesheet");
-link.setAttribute("href", 'https://sarathadhi.github.io/Cust-CSS-CDN/styles/styles.global.css');
+link.setAttribute("href", 'https://sarathadhi.github.io/Cust-CSS-CDN/files/css/styles.global.css');
 document.getElementsByTagName("head")[0].appendChild(link);
 
 // CSS scripting starts here
