@@ -1,0 +1,103 @@
+// Display properties
+$displayProps : block, inline-block, inline, flex, inline-flex, table, inline-table, table-caption, table-cell, table-column, table-column-group, table-footer-group, table-header-group, table-row-group, table-row ,flow-root, grid, inline-grid, contents, list-item, none;
+@each $display in $displayProps {
+    .#{$display} {
+      display: #{$display};
+    }
+}
+
+// Position properties
+$positionProps: static, fixed, absolute, relative, sticky;
+@each $position in $positionProps {
+    .#{$position} {
+      position: #{$position};
+    }
+}
+
+// Flex - Justify contents
+$jcProps: ("jc-start": "flex-start", "jc-end": "flex-end", "jc-around": "space-around", "jc-center": "center", "jc-between": "space-between", "jc-evenly": "space-evenly");
+@each $jcName, $jcRealName in $jcProps {
+    .#{$jcName} {
+        justify-content: #{$jcRealName};
+    }
+}
+
+// Flex - Align items
+$aiProps: ("ai-start": "flex-start", "ai-end": "flex-end", "ai-center": "center", "ai-baseline": "baseline", "ai-stretch": "stretch");
+@each $aiName, $aiRealName in $aiProps {
+    .#{$aiName} {
+        align-items: #{$aiRealName};
+    }
+}
+
+
+// Pre build css
+.flex-ja-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex-ja-center-fd-c {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.flex-ja-center-fd-r {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+// Classic header
+.c-header {
+    width: 100%;
+    height: 50px;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.c-header .logo {
+    margin-left: 20px;
+}
+.c-header .c-header-links a {
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 16px;
+}
+// Classic header ---- ends
+
+// Mouse ripple effect
+.mouse-pointer {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 30px;
+    height: 30px;
+    background-color: #8a2be2;
+    border-radius: 50%;
+    pointer-events: none;
+}
+.mouse-pointer::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: inherit;
+    border-radius: 50%;
+    animation: ripple-mouse-pointer 1s ease-out infinite;
+}
+@keyframes ripple-mouse-pointer {
+    from {
+        opacity: 1;
+        transform: scale(0);
+    }
+
+    to {
+        opacity: 0;
+        transform: scale(2.5);
+    }
+}
+// Mouse ripple effect ------ ends here
