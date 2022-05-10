@@ -1,4 +1,4 @@
-# `CClassy CSS`
+# `Classy CSS`
 
 <div align="center">
     <h2>My own Custom CSS CDN for developers (Still under development)</h2>
