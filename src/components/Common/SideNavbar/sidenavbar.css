@@ -1,0 +1,8 @@
+.sidenavbar-container {
+    top: 80px;
+    left: 0px;
+    position: fixed;
+    background-color: black;
+    width: 400px;
+    height: 100vh;
+}

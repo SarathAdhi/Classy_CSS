@@ -1,0 +1,80 @@
+.header {
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-main {
+    margin-top: 10px;
+    width: 90%;
+    height: 60px;
+    position: absolute;
+    z-index: 9;
+    top: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #201e1e;
+    border: 2px solid rgb(0, 242, 255);
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+}
+.main-logo {
+    margin-left: 40px;
+    width: 200px;
+}
+.main-logo img {
+    width: 100%;
+}
+.fixed-header {
+    width: 90%;
+    position: fixed;
+    top: 0px;
+    animation-name: slide-header;
+    animation-duration: 0.7s;
+}
+
+.header-navlinks, .header-navlinks div {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+.header-router-links {
+    border-right: 1px solid white;
+    
+}
+.header-router-links a {
+    margin-right: 25px;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+}
+.header-router-links a:last-child {
+    margin-right: 20px;
+}
+.header-router-links a:hover {
+    color: #00f7ff;
+}
+
+.github-svg {
+    width: 25px;
+    fill: white;
+    border-radius: 50%;
+    border: 1px solid white;
+    transition: all 0.2s ease-in-out;
+}
+.github-svg:hover {
+    background-color: white;
+    fill: #000000;
+}
+
+
+@keyframes slide-header {
+    0% {
+        top: -100px;
+    }
+    100% {
+        top: 0px;
+    }
+}
