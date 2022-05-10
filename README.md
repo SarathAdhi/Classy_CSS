@@ -1,4 +1,4 @@
-# `Cust-CSS-CDN`
+# `CClassy CSS`
 
 <div align="center">
     <h2>My own Custom CSS CDN for developers (Still under development)</h2>
@@ -17,7 +17,7 @@
 
 <div align="center">
     
-#### `<script defer src="https://sarathadhi.github.io/Cust-CSS-CDN/javascript/script.global.js"></script>`
+#### `<script defer src="https://sarathadhi.github.io/Classy_CSS/files/js/script.global.js"></script>`
 
 </div>
 
