@@ -1,5 +1,5 @@
 .header {
-    padding-bottom: 100px;
+    padding-bottom: 90px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,10 +14,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #201e1e;
-    border: 2px solid rgb(0, 242, 255);
+    background-color: #323b4e;
+    border: 1px solid #1a2233;
     border-radius: 10px;
     transition: all 0.3s ease-in-out;
+}
+.header-main:hover {
+    border: 1px solid rgb(0, 242, 255);
+
 }
 .main-logo {
     margin-left: 40px;

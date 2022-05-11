@@ -1,18 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Bitter&family=Tapestry&display=swap');
 body {
   font-family: 'Bitter', serif;
-  margin: 0px 80px;
+  margin: 0px;
   /* background-image: linear-gradient(315deg,#1fd1f9,#b621fe 74%); */
-  background: url("./assets/images/background.png") repeat 0 0;
+  /* background: url("./assets/images/background.png") repeat 0 0;
   -webkit-animation: bg-scrolling-reverse 0.92s infinite;
-  /* Safari 4+ */
   -moz-animation: bg-scrolling-reverse 0.92s infinite;
-  /* Fx 5+ */
   -o-animation: bg-scrolling-reverse 0.92s infinite;
-  /* Opera 12+ */
   animation: bg-scrolling-reverse 0.92s infinite;
-  /* IE 10+ */
-  animation-timing-function: linear;
+  animation-timing-function: linear; */
+  /* background-color: #334155; */
+  background-color: #0F172A;
+
 }
 
 @-webkit-keyframes bg-scrolling-reverse {
