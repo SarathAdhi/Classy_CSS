@@ -123,7 +123,7 @@
 
 # `Pre-build Components`
 
-### Call the function `addPrebuildClassyCSS()`
+## Call the function `addPrebuildClassyCSS()`
 
 
 <h2 align='left'>Classic Header</h2>
