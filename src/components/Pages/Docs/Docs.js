@@ -6,7 +6,7 @@ import DocsContainer from './Container/DocsContainer';
 
 export default function Docs() {
     
-    const [docsReadData, setDocsReadData] = useState('')
+    const [docsReadData, setDocsReadData] = useState('Installation')
     const currentReadingDocs = localStorage.getItem("currentReadingDocs")
     if(!currentReadingDocs) {
         localStorage.setItem("currentReadingDocs", "Installation");
