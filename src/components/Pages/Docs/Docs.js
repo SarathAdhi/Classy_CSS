@@ -7,12 +7,16 @@ import DocsContainer from './Container/DocsContainer';
 export default function Docs() {
     
     const [docsReadData, setDocsReadData] = useState('')
-    var currentReadingDocs = localStorage.getItem("currentReadingDocs")
+    const currentReadingDocs = localStorage.getItem("currentReadingDocs")
     if(!currentReadingDocs) {
         localStorage.setItem("currentReadingDocs", "Installation");
     }
     function changeDocs(title) {
+        if(currentReadingDocs)
+            document.getElementById(`${currentReadingDocs.replace(' ', '')}`).classList.remove('active-field')
+
         localStorage.setItem("currentReadingDocs", title);
+        document.getElementById(`${title.replace(' ', '')}`).classList.add('active-field')
         setDocsReadData(title)
     }
 
@@ -21,16 +25,16 @@ export default function Docs() {
             <div className='sidenavbar-container'>
                 {sideNavbarData.map((ele) => {
                     return (
-                        <div key={ele.title}>
-                            <h3>{ele.title}</h3>
+                        <div className='sidenavbar-subcontainer' key={ele.title}>
+                            <h2>{ele.title}</h2>
                             {ele.subtopics.map((e) => {
-                                return <button key={e} onClick={() => changeDocs(e)}>{e}</button>
+                                return <button className='docs-sidenavbar-btn' id={e.replace(' ', '')} key={e} onClick={() => changeDocs(e)}>{e}</button>
                             })}
                         </div>
                     )
                 })}
             </div>
-           <DocsContainer data = {currentReadingDocs} />
+           <DocsContainer data = {currentReadingDocs || docsReadData} />
         </div>
     )
 }

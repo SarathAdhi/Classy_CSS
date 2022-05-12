@@ -1,20 +1,54 @@
 .sidenavbar-container {
     background-color: #323b4e;
-    width: 30%;
+    width: 20%;
     height: 85vh;
     border-radius: 10px;
     margin-right: 10px;
     overflow-y: scroll;
+    padding: 0px 20px;
 }
 .sidenavbar-container::-webkit-scrollbar {
     width: 5px;
 }
    
 .sidenavbar-container::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 6px rgba(255, 255, 255, 0.4);
+    border-radius: 10px;
 }
    
 .sidenavbar-container::-webkit-scrollbar-thumb {
     background-color: #ffffff;
-    border-radius: 10px;
+    border-radius: 50px;
+}
+
+.sidenavbar-subcontainer {
+    display: flex;
+    flex-direction: column;
+}
+.sidenavbar-subcontainer h2 {
+    margin-bottom: 10px;
+    color: white;
+}
+
+.docs-sidenavbar-btn {
+    background-color: transparent;
+    width: 180px;
+    border: none;
+    margin: 5px 0px;
+    font-size: 18px;
+    color: #c4baba;
+    text-align: left;
+    padding-left: 10px;
+    border-left: 1px solid #c4baba;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+.docs-sidenavbar-btn:hover {
+    padding-left: 20px;
+    border-left: 1px solid aqua;
+    color: aquamarine;
+}
+.active-field {
+    padding-left: 20px;
+    border-left: 1px solid aqua;
+    color: aquamarine;
 }

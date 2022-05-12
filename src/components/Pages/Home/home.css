@@ -1,7 +1,35 @@
+.home-container {
+    margin: 0px 60px;
+    margin-top: 60px;
+    text-align: center;
+    color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 .home-text-intro {
     font-family: 'Tapestry', cursive;
-    text-align: center;
     font-size: 60px;
-    color: black;
     font-weight: 500;
+}
+.home-container p {
+    color: rgb(145, 145, 145);
+    margin-top: -20px;
+    font-size: 20px;
+}
+
+.get-started-btn {
+    background-color: #009737;
+    border: 2px solid #009737;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 500;
+    color: white;
+    transition: all 0.2s ease-in-out;
+}
+.get-started-btn:hover {
+    border-radius: 15px;
+    border: 2px solid aqua;
 }

@@ -1,31 +1,64 @@
 .docs-read-container {
+    color: white;
     background-color: #323b4e;
-    width: 70%;
+    width: 80%;
     height: 85vh;
     border-radius: 10px;
     overflow-y: scroll;
+    overflow-x: hidden;
     padding: 0px 20px;
 }
-
-.docs-table {
-    border-collapse: collapse;
+.docs-table-container {
     margin: 10px 0px;
+    height: 380px;
+    border-radius: 10px;
+    overflow-y: scroll;
+}
+.docs-table {
+    width: 100%;
+    border-collapse: collapse;
+    color: black;
+    text-align: left;
+    padding: 0px 10px;
+    background-color: white;
+    border-radius: 10px;
 }
 td, th {
-    text-align: center;
-    border: 1px solid #dddddd;
-    padding: 5px 20px;
+    border-bottom: 1px solid #494949;
+    padding: 10px 30px;
 }
+.classycss-class {
+    color: blue;
+    font-weight: 500;
+}
+th {
+    font-size: 20px;
+}
+
+
 
 .docs-read-container::-webkit-scrollbar {
     width: 5px;
 }
    
 .docs-read-container::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 6px rgba(255, 255, 255, 0.4);
+    border-radius: 50px;
 }
    
 .docs-read-container::-webkit-scrollbar-thumb {
     background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.docs-table-container::-webkit-scrollbar {
+    width: 5px;
+}
+   
+.docs-table-container::-webkit-scrollbar-track {
+    border-radius: 50px;
+}
+   
+.docs-table-container::-webkit-scrollbar-thumb {
+    background-color: #9900ff;
     border-radius: 10px;
 }

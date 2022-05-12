@@ -25,27 +25,33 @@ export default function DocsContainer(props) {
                                 }
                                 else {
                                     return (
-                                        <table className='docs-table'>
-                                            <tr>
-                                                <th>Class</th>
-                                                <th>Properties</th>
-                                            </tr>
-                                            {guide.column1.map((column1, index) => {
-                                                return (
-                                                    <tr key={column1}>
-                                                        <td>{column1}</td>
-                                                        <td>{guide.column2[index]}</td>
-                                                        <br />
+                                        <div className='docs-table-container'>
+                                            <table className='docs-table'>
+                                                <thead>
+                                                    <tr>
+                                                        <th>Class</th>
+                                                        <th>Properties</th>
                                                     </tr>
-                                                )
-                                            })}
-                                        </table>
+                                                </thead>
+                                                {guide.classes.map((name, index) => {
+                                                    return (
+                                                        <tbody>
+                                                            <tr key={name}>
+                                                                <td className='classycss-class'>{name}</td>
+                                                                <td>{guide.properties[index]}</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    )
+                                                })}
+                                            </table>
+                                        </div>
+
                                     )
                                 }
                             })}
                         </div>
                     )
-                }
+                } else return '';
             })}
         </div>
     )
