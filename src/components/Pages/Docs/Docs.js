@@ -25,8 +25,8 @@ export default function Docs() {
             <div className='sidenavbar-container'>
                 {sideNavbarData.map((ele) => {
                     return (
-                        <div className='sidenavbar-subcontainer' key={ele.title}>
-                            <h2>{ele.title}</h2>
+                        <div className='' key={ele.title}>
+                            <h2 className='cl-white'>{ele.title}</h2>
                             {ele.subtopics.map((e) => {
                                 return <button className='docs-sidenavbar-btn' id={e.replace(' ', '')} key={e} onClick={() => changeDocs(e)}>{e}</button>
                             })}
